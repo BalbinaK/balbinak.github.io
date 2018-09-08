@@ -1,9 +1,13 @@
 body{
     background: url(images/body\ background.jpg) no-repeat center;
     background-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
 }
-main {
-    font-family:
+header, main{
+    text-align: center;
+    }
+h1{
+    font-weight: bold;
 }
 button[class^="btn btn-"]{
     width: 300px;
