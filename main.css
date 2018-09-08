@@ -1,7 +1,9 @@
 body{
     background: url(images/body\ background.jpg) no-repeat center;
-    background-size: 100%;  
-    min-width: 350px;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
 header {
     margin-top: 20px;
@@ -15,6 +17,7 @@ main {
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    max-width: 500px;
 }
 h1{
     font-weight: bold;
