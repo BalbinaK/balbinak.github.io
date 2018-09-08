@@ -1,9 +1,11 @@
 body{
     background: url(images/body\ background.jpg) no-repeat center;
-    background-size: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    background-size: 100%;  
+    min-width: 350px;
 }
 header, main{
+    margin-top: 20px;
+    padding: 20px;
     text-align: center;
     }
 h1{
