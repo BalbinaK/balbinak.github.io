@@ -24,15 +24,6 @@ nav {
     
 }
 
-header {
-    margin-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-    box-sizing: border-box;
-    text-align: center;
-}
-
 .skills {
   width: 100%;
 }  
@@ -60,13 +51,16 @@ h2 {
 }
 
 header {
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    max-width: 500px;
+  margin-top: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: center;
+  max-width: 500px;
 }
+
 .header__introduction {
     background-color: rgba(200,200,200,0.4);
     border-radius: 5px;
