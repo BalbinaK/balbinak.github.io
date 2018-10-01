@@ -76,9 +76,6 @@ section:first-of-type {
 } 
 
 .about-me__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 20px;
   padding-bottom: 50px;
 }
