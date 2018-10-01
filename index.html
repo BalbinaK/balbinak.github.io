@@ -1,30 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Balbina Kotula</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+
+
 </head>
+
 <body>
+  <div class="parallax background-01">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand">
+        <img src="images/BK-icon.png" width="30" height="30" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#header">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#skills">Skills</a>
+          <a class="nav-item nav-link" href="#about-me">My Bio</a>
+          <a class="nav-item nav-link" href="#interests">Interests</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
     <header>
+      <div id="header">
+        <img src="images/BK-icon.png" alt="BK-icon">
         <h1>Balbina Kotula</h1>
-        <p>I guess you've never met another Balbina <br>so today must be your lucky day!</p>
-    </header>
-    <main>
-        <div class=main>
-        <p>Before you jump into conclusions that women should stick to cooking, 
+        <p>I guess you've never met another Balbina <br>so today must be your lucky day!<br><br></p>
+        <div class="header__introduction">
+          <p>Before you jump into conclusions that women should stick to cooking,
             check out what they might do after fetching you this tasty steak with a fancy salat...</p>
         </div>
-        <button type="button" class="btn btn-dark btn-lg btn-block">First App</button>
-        <button type="button" class="btn btn-secondary btn-lg btn-block">Other GitHub Projects</button>
-    </main>
+      </div>
+    </header>
+
+  </div>
+
+  <main>
+    <div id="skills">
+      <div class="background-02">
+        <div class="skills">
+          <h2>MY SKILLS</h2>
+          <p>I am continuously learning but as Junior Front-end Developer I see my abilities as follows:</p>
+          <div class="skills__img">
+          </div>
+        </div>
+        <div class="skills__links">
+          <a href="http://krety-zaglady.jfdd10.is-academy.pl/" class="btn btn-dark btn-lg btn-block" role="button">My
+            Current
+            Project</a>
+          <a href="https://github.com/Balbuhhha" class="btn btn-secondary btn-lg btn-block" role="button">Other
+            Projects</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section>
+    <div id="about-me">
+      <div class="about-me__content">
+        <h2>ABOUT ME</h2>
+        <p>After completing an intensive full-time course in Front-end Development and digging deeper into the subjects
+          of HTML, CSS, Javascript and React, I decided to make the best use of my skills and previous experience by
+          facing new challenges in my professional life.
+          My fundament is reliability, curiosity, flexibility and professionalism. This is why I believe Web
+          Development is a perfect area for my own development.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="interests">
+      <span>
+        <h2>INTERESTS</h2>
+      </span>
+      <img src="images/01.fishing.png" alt="fishing">
+      <img src="images/02.volleyball.png" alt="volleyball">
+      <img src="images/03. piano.png" alt="piano">
+      <img src="images/04.skiing.png" alt="skiing">
+      <img src="images/05. Australia and animals.png" alt="animals and Australia">
+    </div>
+  </section>
+
+
+  <footer>
+    <div id="contact">
+      <span>
+        <h2>CONTACT</h2>
+      </span>
+      <span>
+        <a>balbuhhha@gmail.com</a>
+      </span>
+      <a href="http://github.com/Balbuhhha" class="github"><img src="images/if_github_683980.png"></a>
+      <a href="http://linkedin.com/in/balbina-kotula-26346074" class="linkedin"><img src="images/linkedin_logo.png"></a>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
