@@ -45,7 +45,7 @@ header {
     background-color: rgba(200,200,200,0.4);
     border-radius: 5px;
 }
-button[class^="btn btn-"] {
+a[class^="btn btn-"] {
     width: 300px;
     opacity: 0.8;
     margin: 0 auto;
