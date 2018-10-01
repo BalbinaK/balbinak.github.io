@@ -69,13 +69,13 @@ header {
     border-radius: 5px;
 }
 
-article:first-of-type {
+section:first-of-type {
   width: 100%;
   height: auto; /*do usunięcia*/
-  background-color: rgba(90,98,104);
+  background-color: rgb(174, 178, 180);
 } 
 
-.article__about-me {
+.about-me__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,7 +83,7 @@ article:first-of-type {
   padding-bottom: 50px;
 }
 
-article:last-of-type {
+section:last-of-type {
   width: 100%;
   height: 300px; /*do usunięcia*/
   background-color: #fff;
