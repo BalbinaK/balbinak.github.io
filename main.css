@@ -31,6 +31,12 @@ a[class^="btn btn-"] {
   margin-bottom: 30px;
 }
 
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .skills__img {
   width: 100%;
   height: 50vh; /*sprawdź co innego tu można, żeby się nie rozciągało przy każdej zmianie*/

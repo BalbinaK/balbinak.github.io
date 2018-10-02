@@ -1,0 +1,24 @@
+@media only screen and (min-width: 640px) {
+  body {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .skills__links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-block+.btn-block {
+    margin-top: 0px;
+  }
+
+
+
+
+
+
+
+}
