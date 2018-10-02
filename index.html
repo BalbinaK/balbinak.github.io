@@ -10,8 +10,10 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main.desktop.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
 
 
 
@@ -90,11 +92,34 @@
       <span>
         <h2>INTERESTS</h2>
       </span>
-      <img src="images/01.fishing.png" alt="fishing">
-      <img src="images/02.volleyball.png" alt="volleyball">
-      <img src="images/03. piano.png" alt="piano">
-      <img src="images/04.skiing.png" alt="skiing">
-      <img src="images/05. Australia and animals.png" alt="animals and Australia">
+
+      <div class="interests__navigation">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="interests__carousel">
+        <div class="interests__previous-button"></div>
+        <div class="interests__next-button"></div>
+        <div class="interests-items">
+          <img src="images/01.fishing.png" alt="fishing">
+          <img src="images/02.volleyball.png" alt="volleyball">
+          <img src="images/03. piano.png" alt="piano">
+          <img src="images/04.skiing.png" alt="skiing">
+          <img src="images/05. Australia and animals.png" alt="animals and Australia">
+        </div>
+      </div>
+      <div class="interests__all">
+        <div class="interests-items-all">
+          <img src="images/01.fishing.png" alt="fishing">
+          <img src="images/02.volleyball.png" alt="volleyball">
+          <img src="images/03. piano.png" alt="piano">
+          <img src="images/04.skiing.png" alt="skiing">
+          <img src="images/05. Australia and animals.png" alt="animals and Australia">
+        </div>
+      </div>
     </div>
   </section>
 
@@ -105,7 +130,7 @@
         <h2>CONTACT</h2>
       </span>
       <span>
-        <a>balbuhhha@gmail.com</a>
+        <a>balbina.kotula@gmail.com</a>
       </span>
       <a href="http://github.com/Balbuhhha" class="github"><img src="images/if_github_683980.png"></a>
       <a href="http://linkedin.com/in/balbina-kotula-26346074" class="linkedin"><img src="images/linkedin_logo.png"></a>
@@ -113,7 +138,7 @@
   </footer>
 
 
-
+  <script src="carousel.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"

@@ -31,6 +31,12 @@ a[class^="btn btn-"] {
   margin-bottom: 30px;
 }
 
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .skills__img {
   width: 100%;
   height: 50vh; /*sprawdź co innego tu można, żeby się nie rozciągało przy każdej zmianie*/
@@ -89,17 +95,87 @@ section:last-of-type {
 
 #interests {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
-#interests span, #contact span {
+#contact span {
   width: 100%;
   display: block;
 }
 #interests > img {
   position: relative;
   display: block;
+}
+
+.interests__all {
+  display: none;
+}
+
+.interests__navigation span {
+  padding: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  background: rgb(174, 178, 180);
+  border-radius: 50px;
+}
+
+.interests__navigation .active {
+  background: black;
+}
+
+.interests__previous-button,
+.interests__next-button {
+  display: inline-block;
+  width: 0;
+  margin: 7px 0 0 10px;
+  border: 10px solid transparent;
+  position: absolute;
+  top: calc(50% - 20px);
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.interests__next-button {
+  border-left-color: rgba(90,98,104);
+  right: -30px;
+}
+
+.interests__previous-button {
+  border-right-color: rgba(90,98,104);
+  left: -40px;
+}
+
+.interests__carousel {
+  position: relative;
+}
+
+.interests-items img {
+  display: none;
+  background: white;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+  border-radius: 50px;
+}
+
+.interests-items img:first-child {
+  display: block;
+  opacity: 1;
+  animation: show 1.5s;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 footer {

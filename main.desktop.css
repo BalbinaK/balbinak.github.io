@@ -1,0 +1,60 @@
+@media only screen and (min-width: 700px) {
+  body {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .skills__links {
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .skills__img {
+    max-width: 860px;
+    height: 500px;
+  }
+
+  .btn-block+.btn-block {
+    margin-top: 0px;
+  }
+  
+  .interests__all {
+    display: block;
+  }
+  
+  .interests-items-all {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media only screen and (min-width: 700px) and (max-width: 1200px) {
+    .interests-items-all {
+      width: 700px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .interests-items-all img {
+    background: white;
+    padding: 30px;
+    box-sizing: border-box;
+    max-width: 188px;
+    width: 28%;
+    margin: 10px 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    border-radius: 50px;
+  }
+
+  .interests__carousel, .interests__navigation {
+    display: none;
+  }
+
+
+
+
+}
