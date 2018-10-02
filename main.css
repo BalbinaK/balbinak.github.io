@@ -109,6 +109,10 @@ section:last-of-type {
   display: block;
 }
 
+.interests__all {
+  display: none;
+}
+
 .interests__navigation span {
   padding: 10px;
   margin-bottom: 20px;
