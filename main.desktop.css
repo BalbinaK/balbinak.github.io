@@ -13,6 +13,11 @@
     margin: 0 auto;
   }
 
+  .skills__img {
+    max-width: 860px;
+    height: 500px;
+  }
+
   .btn-block+.btn-block {
     margin-top: 0px;
   }
