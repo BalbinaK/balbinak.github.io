@@ -1,4 +1,4 @@
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 700px) {
   body {
     font-size: 20px;
     line-height: 1.5;
@@ -21,10 +21,20 @@
   .btn-block+.btn-block {
     margin-top: 0px;
   }
+  
+  @media only screen and (min-width: 700px) and (max-width: 1200px) {
+    .interests-items-all {
+      width: 700px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
 
   .interests__all {
     display: block;
   }
+  
   .interests-items-all {
     display: flex;
     justify-content: space-around;
@@ -34,7 +44,8 @@
     background: white;
     padding: 30px;
     box-sizing: border-box;
-    width: 100%;
+    max-width: 188px;
+    width: 28%;
     margin: 10px 20px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.4);
     border-radius: 50px;
