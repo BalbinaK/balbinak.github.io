@@ -6,12 +6,15 @@ body {
     text-align: center;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .background-01 {
     background: url(images/body\ background.jpg) no-repeat center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .background-02 {
@@ -59,7 +62,7 @@ h2 {
   font-size: 40px;
 }
 
-header {
+#header {
   margin-top: 20px;
   margin: 0 auto;
   margin-bottom: 20px;
