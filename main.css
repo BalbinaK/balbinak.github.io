@@ -64,6 +64,19 @@ h2 {
     margin-bottom: 80px;
 }
 
+.background-about-me {
+  background: url('images/me-black&white.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.about-me__content {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgba(200,200,200,0.4);
+}
+
 #skills {
   position: relative;
 }
