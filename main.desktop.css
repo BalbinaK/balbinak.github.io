@@ -55,7 +55,7 @@
   }
 
   @media only screen and (min-width: 700px) {
-    footer {
+    .background-01-bottom {
       background: url("images/body\ background.jpg") no-repeat bottom;
       background-size: cover;
     }

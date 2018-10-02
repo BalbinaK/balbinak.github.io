@@ -182,7 +182,6 @@ footer {
   width: 100%;
   height: auto;
   background-color: rgba(90,98,104);
-  padding-bottom: 50px;
 } 
 
 #contact {
@@ -198,6 +197,7 @@ footer a {
   line-height: 1.5;
   letter-spacing: 0px;
   margin-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 footer img {
