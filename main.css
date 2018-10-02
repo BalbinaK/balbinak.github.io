@@ -115,6 +115,18 @@ section:last-of-type {
   background: black;
 }
 
+.interests__previous-button,
+.interests__next-button {
+  display: inline-block;
+  width: 0;
+  margin: 7px 0 0 10px;
+  border: 10px solid transparent;
+  position: absolute;
+  top: calc(50% - 20px);
+  cursor: pointer;
+  vertical-align: top;
+}
+
 .interests__next-button {
   border-left-color: rgba(90,98,104);
   right: -30px;
