@@ -9,7 +9,7 @@
   #header {
     height: 800px;
   }
-  
+
   .skills__links {
     display: flex;
     justify-content: center;
@@ -26,6 +26,16 @@
     margin-top: 0px;
   }
   
+  #about-me {
+    height: 600px;
+    overflow: hidden;
+  }
+  .background-about-me {
+    position: relative;
+    background: url('images/me-black&white.jpg') no-repeat right;
+    background-size: 80%;
+  }
+
   .interests__all {
     display: block;
   }
