@@ -32,8 +32,8 @@
   }
   .background-about-me {
     position: relative;
-    background: url('images/me-black&white.jpg') no-repeat right;
-    background-size: 80%;
+    background: url('images/wide-me-black-white.jpg') no-repeat right;
+    background-size: cover;
   }
 
   .interests__all {
