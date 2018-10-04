@@ -68,6 +68,10 @@
     display: none;
   }
 
+  footer {
+    height: auto;
+  }
+  
   @media only screen and (min-width: 700px) {
     .background-01-bottom {
       position: relative;

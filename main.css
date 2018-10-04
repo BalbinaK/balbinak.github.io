@@ -199,7 +199,8 @@ section:last-of-type {
 
 footer {
   width: 100%;
-  height: auto;
+  height: 400px;
+  overflow: hidden;
   background-color: rgba(90,98,104);
 } 
 
@@ -215,8 +216,7 @@ footer a {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0px;
-  margin-bottom: 20px;
-  padding-bottom: 50px;
+  padding: 20px 0px;
 }
 
 footer img {
