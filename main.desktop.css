@@ -83,6 +83,14 @@
     padding: 20px 0px;
   }
 
+  footer img:hover {
+    transform: rotate(10deg);
+  }
+
+  footer img:active {
+    width: 65px;
+  }
+
   footer img {
     width: 70px;
     margin: 0 10px;
