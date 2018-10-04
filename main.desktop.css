@@ -32,7 +32,7 @@
   }
   .background-about-me {
     position: relative;
-    background: url('images/wide-me-black-white.jpg') no-repeat right;
+    background: url('images/wide-me-black-white.jpg') no-repeat right fixed;
     background-size: cover;
   }
 

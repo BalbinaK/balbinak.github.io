@@ -11,12 +11,12 @@ window.addEventListener('scroll', function() {
   headerImage.style.height = 800 - headerImageOffset + 'px';
   // aboutMeImage.style.height = 0 + aboutMeImageOffset + 'px';
   if (window.innerWidth >= 700) {
-    footerImage.style.height = -200 + footerImageOffset + 'px';
-    aboutMeImage.style.height = 300 + aboutMeImageOffset + 'px';
+    footerImage.style.height = -400 + footerImageOffset + 'px';
+    // aboutMeImage.style.height = 300 + aboutMeImageOffset + 'px';
   }
   if (window.innerWidth >= 1200) {
-    footerImage.style.height = 0 + footerImageOffset + 'px';
-    aboutMeImage.style.height = 700 + aboutMeImageOffset + 'px';
+    footerImage.style.height = -250 + footerImageOffset + 'px';
+    // aboutMeImage.style.height = 700 + aboutMeImageOffset + 'px';
   }
   
 })
