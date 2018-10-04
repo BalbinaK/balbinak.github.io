@@ -225,7 +225,7 @@ footer img {
 }
 
 .background-01-bottom {
-  position: relative;
+  
   background: url("images/body\ background.jpg") no-repeat bottom fixed;
   background-size: cover;
 }
