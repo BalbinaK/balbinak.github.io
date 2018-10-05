@@ -1,0 +1,120 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.title {
+  width: 100%:
+  height: auto;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.description {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.endScreen {
+  display: none;
+  position: absolute;
+  top: 120px;
+  font-weight: bold;
+  font-size: 60px;
+  background: lightgreen;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.bottomPart {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+}
+.score, .button {
+  width: 100px;
+  padding: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  background: lightgreen;
+  text-align: center;
+  border: 1px solid green;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.button {
+  margin-right: 5px;
+}
+
+.play:hover {
+  cursor: pointer;
+  background-color: #58AB2B;
+}
+
+.play:active {
+  background-color: rgb(136, 187, 109)
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background: green;
+}
+
+.mole {
+  background-color: green;
+  background-image: url("mole.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  animation: creatureAppears 0.5s linear;
+  background-size: 99%;
+}
+
+.butterfly {
+  background-color: green;
+  background-image: url("butterfly.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  animation: creatureAppears 0.5s linear;
+  background-size: 99%;
+}
+
+@keyframes creatureHides {
+  from {
+    background-position: 0 0px;
+  }
+  to {
+    background-position: 0 45px;
+  }
+}
+
+@keyframes creatureAppears {
+  from {
+    background-position: 0 45px;
+  }
+  to {
+    background-position: 0 0px;
+  }
+}
+
+@keyframes creatureKilled {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  }
+}
