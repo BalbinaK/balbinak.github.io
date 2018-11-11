@@ -16,7 +16,11 @@
     max-width: 700px;
     margin: 0 auto;
   }
-
+  
+  a[class^="btn btn-"] {
+    margin-right: 10px;
+  }
+  
   .skills__img {
     max-width: 860px;
     height: 500px;
