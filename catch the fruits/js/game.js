@@ -34,7 +34,7 @@ function checkHighScore() {
     return;
   }
   highScore = score;
-  highScoreDiv.innerHTML = "REKORD: " + highScore;
+  highScoreDiv.innerHTML = "HIGHSCORE: " + highScore;
   isStorage && localStorage.setItem('highScore', highScore);
 }
 
@@ -171,7 +171,7 @@ function play() {
         item.style.left = left + 'px';
         item.style.top = '0px';
         life -= 1;
-        document.querySelector(".life").innerHTML = 'ŻYCIE: ' + life;
+        document.querySelector(".life").innerHTML = 'LIFE: ' + life;
         if (life < 1) {
           stopGame();
         }
@@ -183,7 +183,7 @@ function play() {
         item.style.left = left + 'px';
         item.style.top = '0px'
         score += 1;
-        document.querySelector(".score").innerHTML = 'WYNIK: ' + score;
+        document.querySelector(".score").innerHTML = 'SCORE: ' + score;
         changeColor(item);
         nextLevel()
       }

@@ -4,7 +4,7 @@ function introScreenAppears() {
     var highScore = localStorage.highScore ? localStorage.getItem('highScore') : 0
     introScreen.style.display = 'flex';
     basket.style.left = (0.95*(board.clientWidth) / 2) + "px";
-    highScoreDiv.innerHTML = "REKORD: " + highScore;
+    highScoreDiv.innerHTML = "HIGHSCORE: " + highScore;
 }
 
 function endScreenAppears() {
@@ -21,14 +21,14 @@ function stopGame() {
     });
     endScreenAppears();
     var endScore = document.querySelector('.endScore');
-    endScore.innerText = "Twój wynik: " + score;
+    endScore.innerText = "Your score: " + score;
 }
 
 function resetScoreAndLife() {
     life = 3
-    document.querySelector('.life').innerHTML = 'ŻYCIE: ' + life;
+    document.querySelector('.life').innerHTML = 'LIFE: ' + life;
     score = 0
-    document.querySelector('.score').innerHTML =  'WYNIK: ' + score;
+    document.querySelector('.score').innerHTML =  'SCORE: ' + score;
 }
 
 introScreenAppears()
@@ -44,9 +44,3 @@ window.addEventListener('click', function (event) {
         play();
     }
 })
-
-
-// setTimeout(function () {
-//     endScreenAppears()
-//     stopGame()
-// }, 3000)
