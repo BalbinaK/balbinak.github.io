@@ -10,7 +10,7 @@ const basket = document.querySelector('.basket');
 const isStorage = 'undefined' !== typeof localStorage
 var keyPressed
 var id;
-var highScore = localStorage.highScore ? localStorage.getItem('highscore') : 0
+
 var score = 0;
 var life = 3;
 var speed = 10;
@@ -28,13 +28,14 @@ function keyPressedHappened() {
 }
 
 function checkHighScore() {
+  var highScore = localStorage.highScore ? localStorage.getItem('highScore') : 0
   var highScoreDiv = document.querySelector(".hot_key")
   if (highScore > score) {
     return;
   }
   highScore = score;
   highScoreDiv.innerHTML = "REKORD: " + highScore;
-  isStorage && localStorage.setItem('highscore', highScore)
+  isStorage && localStorage.setItem('highScore', highScore);
 }
 
 function moveItem(item) {

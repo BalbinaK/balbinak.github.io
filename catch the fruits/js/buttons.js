@@ -1,7 +1,10 @@
 function introScreenAppears() {
     var introScreen = document.querySelector('.introScreen');
+    var highScoreDiv = document.querySelector(".hot_key")
+    var highScore = localStorage.highScore ? localStorage.getItem('highScore') : 0
     introScreen.style.display = 'flex';
     basket.style.left = (0.95*(board.clientWidth) / 2) + "px";
+    highScoreDiv.innerHTML = "REKORD: " + highScore;
 }
 
 function endScreenAppears() {
