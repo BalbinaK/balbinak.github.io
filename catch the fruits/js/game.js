@@ -5,15 +5,18 @@
 // - Jeżeli koliduje to zliczam punkt i losuję nową pozycję owoca
 // - Jeżeli zderza się z ziemią, to losuję nową pozycję owoca i odejmuję życie
 // - Jeżeli skończyły mi się życia, to umieram\
+const board = document.querySelector('.level_window')
+const basket = document.querySelector('.basket');
+const isStorage = 'undefined' !== typeof localStorage
 var keyPressed
 var id;
-var highScore = 0
+var highScore = localStorage.highScore ? localStorage.getItem('highscore') : 0
 var score = 0;
 var life = 3;
 var speed = 10;
 var itemSpeed = 3;
-const board = document.querySelector('.level_window')
-const basket = document.querySelector('.basket');
+
+
 function keyPressedHappened() {
   window.addEventListener('keydown', function (event) {
     keyPressed = event.code;
@@ -31,7 +34,7 @@ function checkHighScore() {
   }
   highScore = score;
   highScoreDiv.innerHTML = "REKORD: " + highScore;
-  return highScore;
+  isStorage && localStorage.setItem('highscore', highScore)
 }
 
 function moveItem(item) {
