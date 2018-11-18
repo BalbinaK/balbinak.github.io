@@ -7,13 +7,12 @@ body {
 }
 header {
   position: relative;
+  overflow:auto;
 }
 
 .background-01 {
     background: url(images/body\ background.jpg) no-repeat center fixed;
     background-size: cover;
-    /* position: relative; */
-    z-index: 1;
 }
 
 .background-02 {
