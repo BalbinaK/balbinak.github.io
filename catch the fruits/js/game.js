@@ -203,7 +203,8 @@ function nextLevel() {
 }
 
 
-basket.addEventListener('touchmove', function (event){
+window.addEventListener('touchmove', function (event){
+  event.preventDefault()
   let touchPosition = event.changedTouches[0].clientX;
   basket.style.left = touchPosition - 40 + 'px';
 })
