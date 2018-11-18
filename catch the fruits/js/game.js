@@ -201,3 +201,11 @@ function nextLevel() {
     speed = 13
   }
 }
+
+
+function onTouchMoveBasket(e){
+  let touchPosition = e.changedTouches[0].clientX;
+  basket.style.left = touchPosition - 40 + 'px';
+}
+
+window.addEventListener('touchmove', onTouchMoveBasket)
