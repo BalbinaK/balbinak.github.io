@@ -5,10 +5,6 @@ body {
     letter-spacing: 0px;
     text-align: center;
 }
-header {
-  position: relative;
-  overflow:auto;
-}
 
 .background-01 {
     background: url(images/body\ background.jpg) no-repeat center fixed;
