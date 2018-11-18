@@ -34,6 +34,7 @@ function resetScoreAndLife() {
 introScreenAppears()
 
 function handleButtonClick(event){
+    event.preventDefault()
     if (event.target.classList.contains('button')) {
         var introScreen = document.querySelector('.introScreen');
         var endScreen = document.querySelector('.endScreen');
