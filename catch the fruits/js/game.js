@@ -208,4 +208,4 @@ function onTouchMoveBasket(e){
   basket.style.left = touchPosition - 40 + 'px';
 }
 
-window.addEventListener('touchmove', onTouchMoveBasket)
+basket.addEventListener('touchmove', onTouchMoveBasket)
