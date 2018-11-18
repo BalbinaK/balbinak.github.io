@@ -10,6 +10,7 @@ body {
     background: url(images/body\ background.jpg) no-repeat center fixed;
     background-size: cover;
     position: relative;
+    -webkit-transform: translateZ(0);
 }
 
 .background-02 {
