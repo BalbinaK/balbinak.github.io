@@ -33,8 +33,7 @@ function resetScoreAndLife() {
 
 introScreenAppears()
 
-window.addEventListener('click', function (event) {
-
+function handleButtonClick(event){
     if (event.target.classList.contains('button')) {
         var introScreen = document.querySelector('.introScreen');
         var endScreen = document.querySelector('.endScreen');
@@ -43,4 +42,7 @@ window.addEventListener('click', function (event) {
         resetScoreAndLife();
         play();
     }
-})
+}
+
+window.addEventListener('click', handleButtonClick)
+window.addEventListener('touchstart', handleButtonClick)
