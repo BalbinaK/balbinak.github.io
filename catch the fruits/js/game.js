@@ -204,6 +204,6 @@ function nextLevel() {
 
 
 basket.addEventListener('touchmove', function (event){
-  let touchPosition = e.changedTouches[0].clientX;
+  let touchPosition = event.changedTouches[0].clientX;
   basket.style.left = touchPosition - 40 + 'px';
 })
