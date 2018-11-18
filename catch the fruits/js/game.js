@@ -204,7 +204,6 @@ function nextLevel() {
 
 
 function onTouchMoveBasket(e){
-  event.preventDefault()
   let touchPosition = e.changedTouches[0].clientX;
   basket.style.left = touchPosition - 40 + 'px';
 }
