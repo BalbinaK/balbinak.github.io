@@ -16,20 +16,15 @@
     max-width: 700px;
     margin: 0 auto;
   }
-  
+
+  .btn-block + .btn-block {
+    margin-top: 0px;
+  }
+
   a[class^="btn btn-"] {
     margin-right: 10px;
   }
-  
-  .skills__img {
-    max-width: 860px;
-    height: 500px;
-  }
 
-  .btn-block+.btn-block {
-    margin-top: 0px;
-  }
-  
   #about-me {
     height: auto;
     overflow: hidden;
@@ -43,14 +38,14 @@
   }
 
   .background-about-me {
-    background: url('images/wide-me-black-white.jpg') no-repeat top fixed;
+    background: url("images/wide-me-black-white.jpg") no-repeat top fixed;
     background-size: cover;
   }
 
   .interests__all {
     display: block;
   }
-  
+
   .interests-items-all {
     display: flex;
     justify-content: space-around;
@@ -71,11 +66,12 @@
     max-width: 188px;
     width: 28%;
     margin: 10px 20px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
     border-radius: 50px;
   }
 
-  .interests__carousel, .interests__navigation {
+  .interests__carousel,
+  .interests__navigation {
     display: none;
   }
 
@@ -99,5 +95,4 @@
     width: 70px;
     margin: 0 10px;
   }
-  
 }
