@@ -95,8 +95,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 860px;
-  padding-top: 30px;
-  padding-bottom: 60px;
+  padding: 60px;
 }
 
 .skill__list_element {
@@ -104,6 +103,7 @@ h2 {
   flex-direction: column;
   width: 45%;
   padding-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .skill__list_element:nth-child(2n) {
@@ -111,8 +111,8 @@ h2 {
 }
 
 .skill__list_element_title {
-  margin-bottom: 0px;
-  color: #000000;
+  text-align: start;
+  color: #294a68;
 }
 
 .skill__level_wrapper {
@@ -125,17 +125,22 @@ h2 {
   background-color: #1f8981;
 }
 
-@media only screen and (max-width: 600px) {
-  #skill__list {
+@media only screen and (max-width: 699px) {
+  #skills__list {
     justify-content: flex-start;
+    min-width: 450px;
   }
 
   .skill__list_element {
-    width: 51%;
+    width: 45%;
   }
 
   .skill__list_element:nth-child(2n) {
-    margin-left: 0px;
+    margin-left: 20px;
+  }
+
+  .skill__list_element_title {
+    font-size: 1.2rem;
   }
 }
 
