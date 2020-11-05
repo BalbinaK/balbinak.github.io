@@ -80,6 +80,10 @@ h2 {
   background: rgba(200, 200, 200, 0.4);
 }
 
+.about-me__content a[class^="btn btn-"] {
+  margin: 0px auto 30px;
+}
+
 #skills {
   margin: 20px;
 }
