@@ -9,7 +9,7 @@
     { name: "React-Native", level: "80%" },
     { name: "Redux", level: "90%" },
     { name: "Scrum", level: "90%" },
-    { name: "PHP", level: "40%" },
+    { name: "TypeScript", level: "70%" },
     { name: "Python", level: "20%" }
   ];
 
